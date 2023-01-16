@@ -1,0 +1,62 @@
+public class String_key
+{
+    public static int list(String manu[],String key)
+    {
+        for(int i=0;i<manu.length;i++)
+        {
+        if(manu[i]==key)
+        {
+            return i;
+        }
+    }
+      return -1;
+        
+    }
+    public static void main(String args [])
+    {
+        String manu[]={"Samusa","dosa","burgger","Patege","Chilli Patato","Kachaudi"};
+        String key="dosa";
+        System.out.println(list(manu,key));
+    }
+    
+}
+
+
+
+
+
+
+
+// import java.util.*;
+// public class Array_largest
+// {
+//   public static int Largest(int number[])
+//   {
+//     int largest=Integer.MIN_VALUE;
+//      for(int i=0;i<number.length;i++)
+//     {
+//         if(largest<number[i])
+//         {
+//            largest=number[i];
+//         }
+//     }   
+//         return largest;
+    
+//     }
+//   public static void main(String[]args)
+//   {
+//     int number[]={1,2,3,4,15,6,7,8,9,};
+//     System.out.println("Result is  = "+Largest(number));
+   
+//   }
+
+// }
+
+
+
+
+
+
+
+
+
